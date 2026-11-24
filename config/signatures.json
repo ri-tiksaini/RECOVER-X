@@ -1,0 +1,146 @@
+[
+  {
+    "type": "jpeg",
+    "ext": "jpg",
+    "header_hex": "FFD8FF",
+    "header_offset": 0,
+    "footer_hex": "FFD9",
+    "max_size": 52428800,
+    "validator_id": "jpeg"
+  },
+  {
+    "type": "png",
+    "ext": "png",
+    "header_hex": "89504E470D0A1A0A",
+    "header_offset": 0,
+    "footer_hex": "49454E44AE426082",
+    "max_size": 52428800,
+    "validator_id": "png"
+  },
+  {
+    "type": "gif",
+    "ext": "gif",
+    "header_hex": "47494638",
+    "header_offset": 0,
+    "footer_hex": "003B",
+    "max_size": 33554432,
+    "validator_id": "gif"
+  },
+  {
+    "type": "bmp",
+    "ext": "bmp",
+    "header_hex": "424D",
+    "header_offset": 0,
+    "footer_hex": null,
+    "max_size": 52428800,
+    "validator_id": "bmp"
+  },
+  {
+    "type": "riff",
+    "ext": "wav",
+    "header_hex": "52494646",
+    "header_offset": 0,
+    "footer_hex": null,
+    "max_size": 4294967296,
+    "validator_id": "riff"
+  },
+  {
+    "type": "isobmff",
+    "ext": "mp4",
+    "header_hex": "66747970",
+    "header_offset": 4,
+    "footer_hex": null,
+    "max_size": 4294967296,
+    "validator_id": "isobmff"
+  },
+  {
+    "type": "mkv",
+    "ext": "mkv",
+    "header_hex": "1A45DFA3",
+    "header_offset": 0,
+    "footer_hex": null,
+    "max_size": 4294967296,
+    "validator_id": "mkv"
+  },
+  {
+    "type": "mp3",
+    "ext": "mp3",
+    "header_hex": "494433",
+    "header_offset": 0,
+    "footer_hex": null,
+    "max_size": 209715200,
+    "validator_id": "mp3"
+  },
+  {
+    "type": "flac",
+    "ext": "flac",
+    "header_hex": "664C6143",
+    "header_offset": 0,
+    "footer_hex": null,
+    "max_size": 524288000,
+    "validator_id": "flac"
+  },
+  {
+    "type": "ogg",
+    "ext": "ogg",
+    "header_hex": "4F676753",
+    "header_offset": 0,
+    "footer_hex": null,
+    "max_size": 524288000,
+    "validator_id": "ogg"
+  },
+  {
+    "type": "pdf",
+    "ext": "pdf",
+    "header_hex": "255044462D",
+    "header_offset": 0,
+    "footer_hex": "2525454F46",
+    "max_size": 209715200,
+    "validator_id": "pdf"
+  },
+  {
+    "type": "zip_ooxml",
+    "ext": "zip",
+    "header_hex": "504B0304",
+    "header_offset": 0,
+    "footer_hex": "504B0506",
+    "max_size": 524288000,
+    "validator_id": "zip_ooxml"
+  },
+  {
+    "type": "sqlite",
+    "ext": "sqlite",
+    "header_hex": "53514C69746520666F726D6174203300",
+    "header_offset": 0,
+    "footer_hex": null,
+    "max_size": 1073741824,
+    "validator_id": "sqlite"
+  },
+  {
+    "type": "gzip",
+    "ext": "gz",
+    "header_hex": "1F8B08",
+    "header_offset": 0,
+    "footer_hex": null,
+    "max_size": 524288000,
+    "validator_id": "gzip"
+  },
+  {
+    "type": "sevenz",
+    "ext": "7z",
+    "header_hex": "377ABCAF271C",
+    "header_offset": 0,
+    "footer_hex": null,
+    "max_size": 1073741824,
+    "validator_id": "sevenz"
+  },
+  {
+    "type": "rar",
+    "ext": "rar",
+    "header_hex": "526172211A07",
+    "header_offset": 0,
+    "footer_hex": null,
+    "max_size": 1073741824,
+    "validator_id": "rar"
+  }
+]

@@ -1,0 +1,14 @@
+[runtime]
+max_rss_mb = 512
+threads = 4
+pool_chunks = 16
+chunk_size_bytes = 4194304
+bitmap_cache_mb = 32
+
+[carve]
+carve_alignment = "sector"
+scrape_bad_sectors = false
+
+[ui]
+poll_hz = 30
+poll_batch_size = 256

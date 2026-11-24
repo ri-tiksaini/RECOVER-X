@@ -1,0 +1,22 @@
+[build-system]
+requires = ["maturin>=1.7,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "recoverx"
+version = "0.1.0"
+description = "Cross-Platform Forensic-Grade Deleted-Data Recovery Engine"
+requires-python = ">=3.10"
+dependencies = [
+    "PySide6>=6.7",
+    "jinja2>=3.1",
+    "structlog>=24.1",
+    "zstandard>=0.22",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.maturin]
+manifest-path = "native/recoverx_py/Cargo.toml"
+module-name = "_recoverx_py"

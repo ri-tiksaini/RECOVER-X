@@ -1,0 +1,14 @@
+{
+  "0": "NONE",
+  "1": "TRIM_OR_WIPE",
+  "2": "ZEROED",
+  "3": "OVERWRITTEN",
+  "4": "FRAGMENTED_LOST",
+  "5": "HEADER_MISMATCH",
+  "6": "ENCRYPTED_HIGH_ENTROPY",
+  "7": "SHORT_READ_IO",
+  "8": "NAME_LOST",
+  "9": "SPARSE_HOLE",
+  "10": "UNKNOWN_FS",
+  "11": "COMPRESSED_NTFS"
+}

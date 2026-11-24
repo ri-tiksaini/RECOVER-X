@@ -1,0 +1,13 @@
+[package]
+name = "recoverx_cli"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "recoverx-cli"
+path = "src/main.rs"
+
+[dependencies]
+recoverx_core = { path = "../recoverx_core" }
+serde_json = "1"
